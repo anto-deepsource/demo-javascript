@@ -15,7 +15,7 @@ enabled = true
     'packages/demo-nuxt/',
     'packages/demo-typescript/'
   ]
-  skip_doc_coverage = ['arrow-function-expression']
+  skip_doc_coverage = ['arrow-function-expression', 'function-expression']
 
 [[transformers]]
     name = "prettier"
