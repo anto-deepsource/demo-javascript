@@ -84,6 +84,33 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck() {
+  console.log("no comment");
+}
+
+function aa() {}
+function bb() {}
+function cc() {}
+function dd() {}
+function ee() {}
+function tag() {}
+
+function dummy() {
+  let a, b, c, d, e;
+  a || b;
+
+  a && bb();
+  aa() || (b = c);
+
+  a ? b : 0;
+  a ? b : cc();
+
+  a ? bb() : cc();
+  a ? (b = c) : dd();
+
+  a ? bb() || (c = d) : ee();
+
+  `some untagged template string`;
+
+  tag`some tagged template string`;
 }
