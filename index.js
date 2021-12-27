@@ -84,6 +84,8 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck() {
+  console.log("no comment");
 }
+
+console.log("test");
