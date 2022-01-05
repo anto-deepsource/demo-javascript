@@ -1,0 +1,20 @@
+<div *ngIf="a === '1'">
+  <div *ngFor="let person of persons; trackBy: trackByFn">
+    <div *ngIf="a === '1'">{{ person.name }}</div>
+    <div [ngSwitch]="person.emotion">
+      <app-happy-hero
+        *ngSwitchCase="'happy'"
+        [hero]="currentHero"
+      ></app-happy-hero>
+      <app-sad-hero *ngSwitchCase="'sad'" [hero]="currentHero"></app-sad-hero>
+      <app-confused-hero
+        *ngSwitchCase="'confused'"
+        [hero]="currentHero"
+      ></app-confused-hero>
+      <app-unknown-hero
+        *ngSwitchDefault
+        [hero]="currentHero"
+      ></app-unknown-hero>
+    </div>
+  </div>
+</div>

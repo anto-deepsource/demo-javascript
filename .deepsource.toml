@@ -6,7 +6,7 @@ enabled = true
 
   [analyzers.meta]
   environment = ['nodejs']
-  plugins = ['react', 'vue']
+  plugins = ['react', 'vue', 'angular']
   dialect = 'flow'
   dependency_file_paths = [
     'packages/demo-react/',
