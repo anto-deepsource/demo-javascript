@@ -84,6 +84,11 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck() {
+  console.log("no comment");
 }
+
+// skipcq: JS-0128
+let dummy = 1;
+
+let dummy1 = 1; // skipcq: JS-0128
