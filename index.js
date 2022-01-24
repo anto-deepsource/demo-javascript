@@ -16,7 +16,6 @@ function isNumber(num) {
 }
 
 function isTruthy(x) {
-  debugger;
   return Boolean(x);
 }
 
@@ -84,6 +83,6 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck() {
+  console.log("no comment");
 }
