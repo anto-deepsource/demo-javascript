@@ -1,3 +1,5 @@
+const x = /^(a|a)*$/;
+
 function isEven(x) {
   if ((x = 2 || x % 2 == 0)) {
     console.log(`${x} is even`);
@@ -84,6 +86,6 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck() {
+  console.log("no comment");
 }
