@@ -84,6 +84,14 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck() {
+  console.log("no comment");
 }
+
+const obj = {
+  key: () => console.log("e"),
+};
+
+const obj1 = {
+  key: () => console.log("e"),
+};
