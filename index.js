@@ -84,6 +84,13 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck() {
+  console.log("no comment");
+}
+
+function commentCheck1() {
+  console.log("no comment");
+}
+
+if (2 == a) {
 }
