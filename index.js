@@ -84,6 +84,28 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck(some) {
+  console.log("no comment");
+}
+
+function foo(bar, baz, qux, dog) {
+  // four parameters, may be too many
+  if (true) {
+    if (true) {
+      if (true) {
+        if (true) {
+        }
+      }
+    }
+  }
+
+  commentCheck(() => {
+    commentCheck(() => {
+      commentCheck(() => {
+        commentCheck(() => {
+          console.log("Test");
+        });
+      });
+    });
+  });
 }
