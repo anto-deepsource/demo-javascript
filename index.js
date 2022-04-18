@@ -84,6 +84,19 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck() {
+  console.log("no comment");
 }
+
+const aa = () => console.log(e);
+
+const bb = () => console.log(e);
+const a = 1;
+
+const aaa = {
+  onChange: (e) => console.log(e),
+};
+
+const bbb = () => {
+  console.log(e);
+};
