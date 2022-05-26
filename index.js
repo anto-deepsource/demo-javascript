@@ -84,6 +84,11 @@ function isMatched(str) {
   return matches;
 }
 
-function commentCheck(){
-  console.log("no comment")
+function commentCheck() {
+  console.log("no comment");
 }
+
+const add = new Function("a", "b", "return a + b");
+console.log("a");
+console.log("a");
+console.log("a");
