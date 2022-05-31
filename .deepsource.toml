@@ -17,7 +17,7 @@ enabled = true
   ]
 
 [[transformers]]
-    name = "prettier"
+    name = "standardjs"
     enabled = true
 
 [[analyzers]]
