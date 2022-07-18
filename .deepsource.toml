@@ -9,3 +9,5 @@ enabled = true
     "react",
     "vue"
   ]
+  dialect = 'flow'
+  
