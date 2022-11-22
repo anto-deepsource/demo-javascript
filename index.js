@@ -91,3 +91,7 @@ function commentCheck(){
 function docTestFunction() {} 
 
 function docTestFunction2() {}
+
+function docTestFunction3() {} 
+
+function docTestFunction4() {}
