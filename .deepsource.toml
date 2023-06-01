@@ -11,3 +11,6 @@ enabled = true
   ]
   dialect = 'flow'
   
+[[transformers]]
+name = "prettier"
+enabled = true
