@@ -89,6 +89,7 @@ function commentCheck() {
   debugger;
 }
 
-function commentCheck1(){console.log("no comment");
+function commentCheck1() {
+  console.log("no comment");
   debugger;
 }
