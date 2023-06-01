@@ -85,10 +85,11 @@ function isMatched(str) {
 }
 
 function commentCheck() {
-  console.log("no comment")
-  debugger
+  console.log("no comment");
+  debugger;
 }
 
-function commentCheck1(){console.log("no comment")
-  debugger
+function commentCheck1() {
+  console.log("no comment");
+  debugger;
 }
