@@ -16,7 +16,7 @@ function isNumber(num) {
 }
 
 function isTruthy(x) {
-  debugger;
+  
   return Boolean(x);
 }
 
