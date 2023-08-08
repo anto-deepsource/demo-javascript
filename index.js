@@ -89,5 +89,5 @@ function commentCheck(){
 }
 
 function commentCheck1(){
-  console.log("no commentsss")
+  console.log("no commentssssssss")
 }
