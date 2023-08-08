@@ -88,7 +88,7 @@ function commentCheck(){
   console.log("no comment")
 }
 
-// hello
+// hellos
 function commentCheck1(){
   console.log("no comment")
 }
