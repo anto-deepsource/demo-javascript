@@ -86,5 +86,6 @@ function isMatched(str) {
 
 function commentCheck(){
   console.log("no comment")
+  const _aaa = CUSTOM_GLOBAL
   debugger
 }
