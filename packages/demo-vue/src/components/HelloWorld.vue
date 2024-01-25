@@ -85,7 +85,7 @@
 <script>
 import Vue from "vue";
 
-// skipcq: JS-0005
+// skipcq: JS-0005, JS-0003
 debugger; if (true) { /** a */ }
 
 debugger; // skipcq: JS-0005
