@@ -2,8 +2,7 @@
   <div class="hello">
     <!-- skipcq: JS-0693 -->
     <h1 v-html="msg"></h1>
-    <!-- skipcq: JS-0693 -->
-    <h1 v-html="msg"></h1>
+    <h1 v-html="msg"></h1> <!-- skipcq: JS-0693 -->
     <p>{{ "Welcome to DeepSource World" }}</p>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
