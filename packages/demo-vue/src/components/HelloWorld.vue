@@ -85,6 +85,7 @@
 <script>
 import Vue from "vue";
 
+// skipcq: JS-0005
 debugger;
 
 Vue.component("HelloWorld", {
