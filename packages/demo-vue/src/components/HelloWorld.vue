@@ -86,7 +86,7 @@
 import Vue from "vue";
 
 // skipcq: JS-0005
-debugger; if (1 == 1) {}
+debugger; if (true) { /** a */ }
 
 debugger; // skipcq: JS-0005
 
@@ -94,6 +94,8 @@ debugger; // skipcq: JS-0005
 debugger;
   
 // skipcq: JS-0005 some comment
+debugger;
+
 debugger;
   
 Vue.component("HelloWorld", {
