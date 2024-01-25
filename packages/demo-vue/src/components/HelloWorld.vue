@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
     <h1 v-html="msg"></h1>
-    <h1 v-html="msg"></h1><p>{{ "Welcome to DeepSource World" }}</p> <!-- skipcq: JS-0692 -->
-    <!-- skipcq: JS-0692 -->
+    <h1 v-html="msg"></h1><p>{{ "Welcome to DeepSource World" }}</p> <!-- Need to skip this. skipcq: JS-0693 -->
+    <!-- skipcq: JS-0693 Need to skip this -->
     <h1 v-html="msg"></h1><p>{{ "Welcome to DeepSource World" }}</p>
     <p>{{ "Welcome to DeepSource World" }}</p>
     <p>
@@ -84,6 +84,8 @@
 
 <script>
 import Vue from "vue";
+
+debugger;
 
 Vue.component("HelloWorld", {
   data: {
