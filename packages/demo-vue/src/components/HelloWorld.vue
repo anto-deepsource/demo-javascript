@@ -1,9 +1,8 @@
 <template>
   <div class="hello">
-    <!-- skipcq: JS-0693 -->
     <h1 v-html="msg"></h1>
-    <h1 v-html="msg"></h1><p>{{ "Welcome to DeepSource World" }}</p> <!-- skipcq: JS-0693 -->
-    <!-- skipcq: JS-0693 -->
+    <h1 v-html="msg"></h1><p>{{ "Welcome to DeepSource World" }}</p> <!-- skipcq: JS-0692 -->
+    <!-- skipcq: JS-0692 -->
     <h1 v-html="msg"></h1><p>{{ "Welcome to DeepSource World" }}</p>
     <p>{{ "Welcome to DeepSource World" }}</p>
     <p>
