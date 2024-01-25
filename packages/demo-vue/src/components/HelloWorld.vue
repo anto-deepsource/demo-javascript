@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <!-- skipcq: JS-0693 -->
     <h1 v-html="msg"></h1>
     <p>{{ "Welcome to DeepSource World" }}</p>
     <p>
