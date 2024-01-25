@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
     <h1 v-html="msg"></h1>
-    <h1 v-html="msg"></h1><p>{{ "Welcome to DeepSource World" }}</p> <!-- Need to skip this. skipcq: JS-0693 -->
+    <h1 v-html="msg"></h1><p>{{ "Welcome to DeepSource World" }}</p> <!-- Need to skip this. skipcq: JS-0693, JS-0716 -->
     <!-- skipcq: JS-0693 Need to skip this -->
-    <h1 v-html="msg"></h1><p>{{ "Welcome to DeepSource World" }}</p>
+    <h1 v-html="msg"></h1><p>{{ "Welcome to DeepSource World" }}</p> <!-- skipcq: JS-0716 Need to skip this -->
     <p>{{ "Welcome to DeepSource World" }}</p>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
@@ -86,8 +86,16 @@
 import Vue from "vue";
 
 // skipcq: JS-0005
-debugger;
+debugger; if (1 == 1) {}
 
+debugger; // skipcq: JS-0005
+
+// some comment. skipcq: JS-0005
+debugger;
+  
+// skipcq: JS-0005 some comment
+debugger;
+  
 Vue.component("HelloWorld", {
   data: {
     msg: "Welcome to DeepSource",
