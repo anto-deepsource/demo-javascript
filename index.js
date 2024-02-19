@@ -88,3 +88,8 @@ function commentCheck(){
   console.log("no comment")
   debugger
 }
+
+function commentCheck1(){
+  console.log("no comment")
+  debugger
+}
