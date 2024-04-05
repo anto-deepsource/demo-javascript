@@ -1,10 +1,15 @@
 const express = require('express'); 
 const request = require('request'); // request is deprecated. Prefer using `axios` instead
 const helmet = require('helmet')
-
-
-const app = express(); // Sensitive
-
+const app = express();
+app.use(
+ helmet.contentSecurityPolicy({
+   directives: {
+     // other directives
+     "frame-ancestors": ["'example.com'"]
+   }
+ })
+);
 
 app.use(
   helmet.expectCt({
