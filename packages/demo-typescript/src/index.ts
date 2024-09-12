@@ -12,6 +12,7 @@ class SampleClass {
           } if(x){
               return x
           }else {
+              // @ts-ignore: Unreachable code error
               return 'hello world'
           }
       

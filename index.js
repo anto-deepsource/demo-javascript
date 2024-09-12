@@ -85,6 +85,17 @@ function isMatched(str) {
 }
 
 function commentCheck(){
+  
   console.log("no comment")
   debugger
 }
+
+function isFooAvailable1(obj) {
+  console.log(`Value of obj[foo]: ${obj["foo"]}`);
+  return obj.hasOwnProperty("foo");
+}
+
+if (true == yoda) {
+  console.log("I am yoda");
+}
+
