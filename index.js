@@ -88,3 +88,7 @@ function commentCheck(){
   console.log("no comment")
   debugger
 }
+
+function docTestFunction() {} 
+
+function docTestFunction2() {}
