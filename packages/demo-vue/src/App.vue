@@ -8,12 +8,30 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 
-export default {
-  name: "App",
+/**
+ * Component to filter issues based on analyzer
+ */
+@Component({
   components: {
-    HelloWorld,
+    ZIcon,
+    ZButton,
+    ZInput,
+    ZMenu,
+    ZMenuItem,
+    ZBadge,
+    AnalyzerLogo,
   },
-};
+})
+export default class IssuePriorityFilter extends mixins(RepoDetailMixin) {
+  /**
+   * fetch hook for vue component
+   *
+   * @returns
+   */
+  async fetch() {
+    await this.fetchAvailableAnalyzers(this.baseRouteParams);
+  }
+}
 </script>
 
 <style>
