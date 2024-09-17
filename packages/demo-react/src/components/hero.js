@@ -2,7 +2,7 @@ import { Component } from "react";
 import propTypes from 'prop-types'
 
 class Hero extends Component {
-  render() {
+  render(a: string) {
     <div class={this.props.class_name}>Welcome to {this.props.title} Hero Component</div>;
   }
 }
