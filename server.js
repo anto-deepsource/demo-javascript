@@ -23,3 +23,12 @@ request('http://www.google.com', function (error, response, body) {
 app.get('/', function (req, res) {
   res.send('hello')
 });
+
+/**
+ * @deprecated
+ */
+function add(a, b) {
+  return a + b;
+}
+
+module.exports = add;
