@@ -13,6 +13,8 @@ class Hello extends Component<Props> {
     this.isHero = props.isHero ? props.isHero : false;
   }
   render() {
+    debugger;
+    console.log("a");
     return (
       <div>
         <h1 class="no-unknown-property" font-size="24" onClick={() => console.log('Should not use bind in JSX props')}> { /* skipcq: JS-0760 */ }
