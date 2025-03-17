@@ -88,3 +88,11 @@ function commentCheck(){
   console.log("no comment")
   debugger
 }
+
+async function fetchData(): string {
+    // `readFileSync` is a synchronous function that blocks
+    // the main thread, and thus does not need to be `await`ed
+    return fs.readFileSync("data.txt", "utf-8");
+}
+
+performAction(async () => { console.log("no awaits in here") });
