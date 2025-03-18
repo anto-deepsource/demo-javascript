@@ -5,7 +5,7 @@
         "id-length": [
             "error",
             {
-                "min": 3
+                "min": 6
             }
         ]
     }
