@@ -6,7 +6,8 @@
             "error",
             {
                 "min": 6,
-                "exceptions": ["a"]
+                "exceptions": ["a", "aa"],
+                "exceptionPatterns": ["^foo_"]
             }
         ]
     }
