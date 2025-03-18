@@ -5,7 +5,8 @@
         "id-length": [
             "error",
             {
-                "min": 6
+                "min": 6,
+                "exceptions": ["a"]
             }
         ]
     }
