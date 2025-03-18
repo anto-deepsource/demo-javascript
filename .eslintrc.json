@@ -2,6 +2,11 @@
     "root": true,
     "rules": {
         "require-await": "off",
-        "id-length": "off"
+        "id-length": [
+            "error",
+            {
+                "min": 3
+            }
+        ]
     }
 }
