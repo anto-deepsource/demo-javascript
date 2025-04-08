@@ -83,15 +83,19 @@
 import Vue from "vue";
 
 Vue.component("HelloWorld", {
-  data: {
+  data: function() {
+return {
     msg: "Welcome to DeepSource",
-  },
+  };
+},
 });
 
 export default {
-  data: {
+  data: function() {
+return {
     msg: "Welcome to DeepSource",
-  },
+  };
+},
 };
 </script>
 
