@@ -1,0 +1,14 @@
+{
+    "root": true,
+    "rules": {
+        "require-await": "off",
+        "id-length": [
+            "error",
+            {
+                "min": 6,
+                "exceptions": ["a", "aa"],
+                "exceptionPatterns": ["^foo_"]
+            }
+        ]
+    }
+}
